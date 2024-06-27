@@ -8,3 +8,6 @@ Give the lamp an instance method called toggleSwitch that will switch the value 
 Define another instance method called state that will return "The lamp is on." 
 if it's on and "The lamp is off." otherwise.
 */
+
+
+// Solution
