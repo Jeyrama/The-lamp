@@ -24,3 +24,5 @@ class Lamp {
     return this.on ? 'The lamp is on.' : 'The lamp is off.'
   }
 }
+
+// or
