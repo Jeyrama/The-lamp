@@ -26,3 +26,10 @@ class Lamp {
 }
 
 // or
+
+class Lamp {
+  constructor(color, on) { this.color=color; this.on=!!on; }
+  color(q) { this.color=q; }
+  toggleSwitch() { this.on=!this.on; }
+  state() { return `The lamp is ${this.on?'on':'off'}.`; }
+ }
